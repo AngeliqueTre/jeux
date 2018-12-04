@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900|Oswald:200,300,400,500,600,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/responsive.css">
+    <title>Jeux</title>
+  </head>
+  <body>
+    <div class=" interface" id="interface_1">
+      <header>
+        <h1>DACTYLOGRAPHIE</h1>
+      </header>
+      <article>
+        <h2>Règle de jeux</h2>
+        <p>Lorsque vous voyez une lettre s'afficher à l'écran, vous avez 3 secondes pour appuyer sur la lettre correspondent. Une bonne réponse vous donnera 1 point, une mauvaise réponse mettra fin à la partie.</p>
+        <button type="button" name="button" class="btn" id="btnStart">Start</button>
+      </article>
+    </div>
+
+    <div class="interface" id="interface_2">
+      <header>
+        <h2>Dactylographie</h2>
+        <h2 id="score">Score: </h2>
+        <h2 id="tmp">Temps restant : </h2>
+
+      </header>
+      <article>
+        <p id="letter"></p><br>
+      </article>
+    </div>
+
+    <div class="interface" id="interface_3">
+      <header>
+        <h2>Dactylographie</h2>
+      </header>
+      <article>
+          <h2 id="score_final">Score :</h2>
+      </article>
+      <footer id="footer_interface3">
+        <button type="button" name="button" class="btn" id="btnNewPartie">Nouvelle partie</button>
+      </footer>
+    </div>
+
+
+  </body>
+  <script type="text/javascript" src="script.js"></script>
+</html>
